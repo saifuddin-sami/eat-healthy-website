@@ -4,17 +4,19 @@
     padding: 0;
 }
 body {
-    max-width: 1440px;
+    max-width: 1920px;
     margin: 0 auto;
     font-family: Montserrat;
 }
 header {
+    max-width: 90%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-.header-txt-container {
-    max-width: 45%;
+.header-txt {
+    max-width: 70%;
 }
 .header-orange-title {
     background: linear-gradient(to right top, rgba(251, 162, 79, 1), rgb(255, 83, 30));
